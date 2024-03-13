@@ -1,0 +1,135 @@
+Log created: 2023-08-31 23:47:13
+Type: backup
+[2023-08-31 23:47:17][notice]Start backing up.
+[2023-08-31 23:47:17][notice]server info fcgi:Off max execution time: 300 wp version:6.3.1 php version:8.2.8 db version:5.7.42 php ini:safe_mode: memory_limit:256M memory_get_usage:87.64 MB memory_get_peak_usage:88.41 MB extensions:PDO enabled curl enabled zlib enabled   is_multisite:0
+[2023-08-31 23:47:17][notice]LiteSpeed Server.
+[2023-08-31 23:47:17][notice]Add LiteSpeed Rule
+[2023-08-31 23:47:17][notice]Prepare to backup backup_db files.
+[2023-08-31 23:47:17][notice]Start exporting database.
+[2023-08-31 23:47:17][notice]Preparing to dump table wpdx_e_events
+[2023-08-31 23:47:18][notice]Preparing to dump table wpdx_links
+[2023-08-31 23:47:18][notice]Preparing to dump table wpdx_litespeed_url_file
+[2023-08-31 23:47:18][notice]Preparing to dump table wpdx_wpfm_backup
+[2023-08-31 23:47:18][notice]Preparing to dump table wpdx_e_notes_users_relations
+[2023-08-31 23:47:18][notice]Preparing to dump table wpdx_wpforms_payments
+[2023-08-31 23:47:18][notice]Preparing to dump table wpdx_wpmailsmtp_tasks_meta
+[2023-08-31 23:47:18][notice]Preparing to dump table wpdx_actionscheduler_claims
+[2023-08-31 23:47:18][notice]Preparing to dump table wpdx_commentmeta
+[2023-08-31 23:47:18][notice]Preparing to dump table wpdx_e_notes
+[2023-08-31 23:47:18][notice]Preparing to dump table wpdx_litespeed_url
+[2023-08-31 23:47:18][notice]Preparing to dump table wpdx_termmeta
+[2023-08-31 23:47:18][notice]Preparing to dump table wpdx_wpforms_payment_meta
+[2023-08-31 23:47:18][notice]Preparing to dump table wpdx_term_taxonomy
+[2023-08-31 23:47:18][notice]Preparing to dump table wpdx_wpforms_entries
+[2023-08-31 23:47:18][notice]Preparing to dump table wpdx_term_relationships
+[2023-08-31 23:47:18][notice]Preparing to dump table wpdx_e_submissions_values
+[2023-08-31 23:47:18][notice]Preparing to dump table wpdx_wpforms_entry_fields
+[2023-08-31 23:47:18][notice]Preparing to dump table wpdx_comments
+[2023-08-31 23:47:18][notice]Preparing to dump table wpdx_users
+[2023-08-31 23:47:18][notice]Preparing to dump table wpdx_duplicator_packages
+[2023-08-31 23:47:18][notice]Preparing to dump table wpdx_actionscheduler_groups
+[2023-08-31 23:47:18][notice]Preparing to dump table wpdx_e_submissions_actions_log
+[2023-08-31 23:47:18][notice]Preparing to dump table wpdx_wpforms_entry_meta
+[2023-08-31 23:47:18][notice]Preparing to dump table wpdx_terms
+[2023-08-31 23:47:19][notice]Preparing to dump table wpdx_usermeta
+[2023-08-31 23:47:19][notice]Preparing to dump table wpdx_wpmailsmtp_debug_events
+[2023-08-31 23:47:19][notice]Preparing to dump table wpdx_wpforms_tasks_meta
+[2023-08-31 23:47:19][notice]Preparing to dump table wpdx_actionscheduler_logs
+[2023-08-31 23:47:19][notice]Preparing to dump table wpdx_e_submissions
+[2023-08-31 23:47:19][notice]Preparing to dump table wpdx_actionscheduler_actions
+[2023-08-31 23:47:19][notice]Preparing to dump table wpdx_options
+[2023-08-31 23:47:19][notice]Preparing to dump table wpdx_posts
+[2023-08-31 23:47:22][notice]Preparing to dump table wpdx_postmeta
+[2023-08-31 23:47:41][notice]Exporting database finished.
+[2023-08-31 23:47:41][notice]Start compressing database
+[2023-08-31 23:47:41][notice]Prepare to zip file. file: sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_db.sql
+[2023-08-31 23:47:47][notice]Adding zip files completed.sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_db.part001.zip, filesize: 5.75 MB
+[2023-08-31 23:47:47][notice]Compressing database completed
+[2023-08-31 23:47:47][notice]Backing up backup_db completed.
+[2023-08-31 23:47:47][notice]Prepare to backup backup_themes files.
+[2023-08-31 23:47:48][notice]Compressing zip file:sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_themes.part001.zip index:500
+[2023-08-31 23:47:52][notice]Compressing zip file:sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_themes.part001.zip success. index:500 file size:6.87 MB
+[2023-08-31 23:47:52][notice]Compressing zip file:sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_themes.part001.zip index:1000
+[2023-08-31 23:47:58][notice]Compressing zip file:sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_themes.part001.zip success. index:1000 file size:11.12 MB
+[2023-08-31 23:47:58][notice]Compressing zip file:sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_themes.part001.zip index:1500
+[2023-08-31 23:48:03][notice]Compressing zip file:sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_themes.part001.zip success. index:1500 file size:16.11 MB
+[2023-08-31 23:48:07][notice]Backing up backup_themes completed.
+[2023-08-31 23:48:08][notice]Prepare to backup backup_plugin files.
+[2023-08-31 23:48:12][notice]Compressing zip file:sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_plugin.part001.zip index:500
+[2023-08-31 23:48:13][notice]Compressing zip file:sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_plugin.part001.zip success. index:500 file size:1.79 MB
+[2023-08-31 23:48:13][notice]Compressing zip file:sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_plugin.part001.zip index:1000
+[2023-08-31 23:48:22][notice]Compressing zip file:sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_plugin.part001.zip success. index:1000 file size:9.63 MB
+[2023-08-31 23:48:22][notice]Compressing zip file:sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_plugin.part001.zip index:1500
+[2023-08-31 23:48:26][notice]Compressing zip file:sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_plugin.part001.zip success. index:1500 file size:10.75 MB
+[2023-08-31 23:48:26][notice]Compressing zip file:sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_plugin.part001.zip index:2000
+[2023-08-31 23:48:36][notice]Compressing zip file:sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_plugin.part001.zip success. index:2000 file size:18.70 MB
+[2023-08-31 23:48:36][notice]Compressing zip file:sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_plugin.part001.zip index:2500
+[2023-08-31 23:48:44][notice]Compressing zip file:sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_plugin.part001.zip success. index:2500 file size:22.14 MB
+[2023-08-31 23:48:44][notice]Compressing zip file:sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_plugin.part001.zip index:3000
+[2023-08-31 23:48:53][notice]Compressing zip file:sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_plugin.part001.zip success. index:3000 file size:25.68 MB
+[2023-08-31 23:48:53][notice]Compressing zip file:sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_plugin.part001.zip index:3500
+[2023-08-31 23:49:02][notice]Compressing zip file:sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_plugin.part001.zip success. index:3500 file size:27.54 MB
+[2023-08-31 23:49:02][notice]Compressing zip file:sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_plugin.part001.zip index:4000
+[2023-08-31 23:49:12][notice]Compressing zip file:sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_plugin.part001.zip success. index:4000 file size:30.49 MB
+[2023-08-31 23:49:12][notice]Compressing zip file:sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_plugin.part001.zip index:4500
+[2023-08-31 23:49:26][notice]Compressing zip file:sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_plugin.part001.zip success. index:4500 file size:32.88 MB
+[2023-08-31 23:49:26][notice]Compressing zip file:sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_plugin.part001.zip index:5000
+[2023-08-31 23:49:40][notice]Compressing zip file:sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_plugin.part001.zip success. index:5000 file size:34.79 MB
+[2023-08-31 23:49:40][notice]Compressing zip file:sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_plugin.part001.zip index:5500
+[2023-08-31 23:49:52][notice]Compressing zip file:sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_plugin.part001.zip success. index:5500 file size:36.69 MB
+[2023-08-31 23:49:52][notice]Compressing zip file:sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_plugin.part001.zip index:6000
+[2023-08-31 23:50:05][notice]Compressing zip file:sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_plugin.part001.zip success. index:6000 file size:38.25 MB
+[2023-08-31 23:50:05][notice]Compressing zip file:sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_plugin.part001.zip index:6500
+[2023-08-31 23:50:18][notice]Compressing zip file:sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_plugin.part001.zip success. index:6500 file size:39.01 MB
+[2023-08-31 23:50:18][notice]Compressing zip file:sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_plugin.part001.zip index:7000
+[2023-08-31 23:50:36][notice]Compressing zip file:sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_plugin.part001.zip success. index:7000 file size:41.36 MB
+[2023-08-31 23:50:36][notice]Compressing zip file:sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_plugin.part001.zip index:7500
+[2023-08-31 23:51:28][notice]Compressing zip file:sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_plugin.part001.zip success. index:7500 file size:46.51 MB
+[2023-08-31 23:51:28][notice]Compressing zip file:sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_plugin.part001.zip index:8000
+[2023-08-31 23:51:43][notice]Compressing zip file:sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_plugin.part001.zip success. index:8000 file size:49.60 MB
+[2023-08-31 23:51:43][notice]Compressing zip file:sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_plugin.part001.zip index:8500
+[2023-08-31 23:51:58][notice]Compressing zip file:sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_plugin.part001.zip success. index:8500 file size:51.24 MB
+[2023-08-31 23:51:58][notice]Compressing zip file:sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_plugin.part001.zip index:9000
+[2023-08-31 23:52:10][notice]Compressing zip file:sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_plugin.part001.zip success. index:9000 file size:51.57 MB
+[2023-08-31 23:52:23][notice]Backing up backup_plugin completed.
+[2023-08-31 23:52:23][notice]Prepare to backup backup_uploads files.
+[2023-08-31 23:52:23][notice]Compressing zip file:sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_uploads.part001.zip index:500
+[2023-08-31 23:52:52][notice]Compressing zip file:sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_uploads.part001.zip success. index:500 file size:59.89 MB
+[2023-08-31 23:52:52][notice]Compressing zip file:sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_uploads.part001.zip index:1000
+[2023-08-31 23:53:07][notice]Compressing zip file:sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_uploads.part001.zip success. index:1000 file size:61.27 MB
+[2023-08-31 23:53:23][notice]Backing up backup_uploads completed.
+[2023-08-31 23:53:23][notice]Prepare to backup backup_content files.
+[2023-08-31 23:53:23][notice]Compressing zip file:sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_content.part001.zip index:500
+[2023-08-31 23:53:23][notice]Compressing zip file:sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_content.part001.zip success. index:500 file size:144.00 B
+[2023-08-31 23:53:23][notice]Backing up backup_content completed.
+[2023-08-31 23:53:23][notice]Prepare to backup backup_core files.
+[2023-08-31 23:53:23][notice]Compressing zip file:sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_core.part001.zip index:500
+[2023-08-31 23:53:24][notice]Compressing zip file:sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_core.part001.zip success. index:500 file size:2.30 MB
+[2023-08-31 23:53:24][notice]Compressing zip file:sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_core.part001.zip index:1000
+[2023-08-31 23:53:29][notice]Compressing zip file:sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_core.part001.zip success. index:1000 file size:7.41 MB
+[2023-08-31 23:53:29][notice]Compressing zip file:sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_core.part001.zip index:1500
+[2023-08-31 23:53:38][notice]Compressing zip file:sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_core.part001.zip success. index:1500 file size:12.61 MB
+[2023-08-31 23:53:38][notice]Compressing zip file:sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_core.part001.zip index:2000
+[2023-08-31 23:53:42][notice]Compressing zip file:sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_core.part001.zip success. index:2000 file size:12.94 MB
+[2023-08-31 23:53:42][notice]Compressing zip file:sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_core.part001.zip index:2500
+[2023-08-31 23:53:59][notice]Compressing zip file:sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_core.part001.zip success. index:2500 file size:15.04 MB
+[2023-08-31 23:53:59][notice]Compressing zip file:sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_core.part001.zip index:3000
+[2023-08-31 23:54:04][notice]Compressing zip file:sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_core.part001.zip success. index:3000 file size:17.25 MB
+[2023-08-31 23:54:08][notice]Backing up backup_core completed.
+[2023-08-31 23:54:08][notice]Prepare to backup backup_merge files.
+[2023-08-31 23:54:08][notice]Prepare to zip file. file: sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_db.zip
+[2023-08-31 23:54:09][notice]Adding zip files completed.sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_all.part001.zip, filesize: 4.66 MB
+[2023-08-31 23:54:09][notice]Prepare to zip file. file: sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_themes.zip
+[2023-08-31 23:54:29][notice]Adding zip files completed.sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_all.part001.zip, filesize: 20.53 MB
+[2023-08-31 23:54:33][notice]Prepare to zip file. file: sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_plugin.zip
+[2023-08-31 23:54:53][notice]Adding zip files completed.sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_all.part001.zip, filesize: 70.36 MB
+[2023-08-31 23:54:53][notice]Prepare to zip file. file: sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_uploads.zip
+[2023-08-31 23:55:35][notice]Adding zip files completed.sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_all.part001.zip, filesize: 131.60 MB
+[2023-08-31 23:55:35][notice]Prepare to zip file. file: sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_content.zip
+[2023-08-31 23:56:11][notice]Adding zip files completed.sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_all.part001.zip, filesize: 131.60 MB
+[2023-08-31 23:56:11][notice]Prepare to zip file. file: sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_core.zip
+[2023-08-31 23:56:48][notice]Adding zip files completed.sickeningevents.com_wpvivid-64f12681e98da_2023-08-31-23-47_backup_all.part001.zip, filesize: 148.47 MB
+[2023-08-31 23:57:31][notice]Backing up backup_merge completed.
+[2023-08-31 23:57:31][notice]Backup completed.
+[2023-08-31 23:57:31][notice]LiteSpeed Server.
+[2023-08-31 23:57:31][notice]Clear LiteSpeed Rule

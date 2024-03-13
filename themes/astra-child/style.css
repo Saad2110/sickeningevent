@@ -1,0 +1,73 @@
+/*
+Theme Name: Astra Child
+Theme URI: https://wpastra.com/
+Template: astra
+Author: Brainstorm Force
+Author URI: https://wpastra.com/about/?utm_source=theme_preview&utm_medium=author_link&utm_campaign=astra_theme
+Description: Astra is fast, fully customizable &amp; beautiful WordPress theme suitable for blog, personal portfolio, business website and WooCommerce storefront. It is very lightweight (less than 50KB on frontend) and offers unparalleled speed. Built with SEO in mind, Astra comes with Schema.org code integrated and is Native AMP ready so search engines will love your site. It offers special features and templates so it works perfectly with all page builders like Elementor, Beaver Builder, Visual Composer, SiteOrigin, Divi, etc. Some of the other features: # WooCommerce Ready # Responsive # RTL &amp; Translation Ready # Extendible with premium addons # Regularly updated # Designed, Developed, Maintained &amp; Supported by Brainstorm Force. Looking for a perfect base theme? Look no further. Astra is fast, fully customizable and WooCommerce ready theme that you can use for building any kind of website!
+Tags: custom-menu,custom-logo,entertainment,one-column,two-columns,left-sidebar,e-commerce,right-sidebar,custom-colors,editor-style,featured-images,full-width-template,microformats,post-formats,rtl-language-support,theme-options,threaded-comments,translation-ready,blog
+Version: 4.1.6.1689885952
+Updated: 2023-07-20 20:45:52
+
+*/
+
+.developerhub {
+    width: 60%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: black;
+    color: white;
+    box-shadow: 0px 0px 10px red, 0px 0px 15px red, 0px 0px 20px red, 0px 0px 25px red;
+    padding: 50px;;
+}
+.developerhub h2{
+    margin: 0px;
+}
+.developerhub .formscalc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 90%;
+    margin: 20px 0px;
+}
+.pricedisplay {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+}
+.avgticketprice {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.avgticketprice input{
+    width: 65%;
+}
+.avgticketprice label {
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.avgticketprice  input[type="range"] {
+    height: 10px;
+    border-radius: 5px;
+    accent-color: #FF3366 !important;
+}
+
+select#brands {
+    background: #000;
+    color: #fff;
+}
+
+select#brands option[value="eventbrite"]   { background-image:url(https://devhubstaging.website/sickeningevents/wp-content/uploads/2023/07/image-33.png);   }
+select#brands option[value="seeticket"] { background-image:url(https://devhubstaging.website/sickeningevents/wp-content/uploads/2023/07/image-29.png); }
+select#brands option[value="posh"] { background-image:url(https://devhubstaging.website/sickeningevents/wp-content/uploads/2023/07/image-36.png); }
+select#brands option[value="ticketmaster"] { background-image:url(https://devhubstaging.website/sickeningevents/wp-content/uploads/2023/07/image-31.png); }
+select#brands option[value="etix"] { background-image:url(https://devhubstaging.website/sickeningevents/wp-content/uploads/2023/07/image-35.png); }

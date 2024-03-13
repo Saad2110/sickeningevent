@@ -1,0 +1,1742 @@
+********************************************************************************
+* DUPLICATOR LITE: Install-Log
+* STEP-0 START @ 12:00:56
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ ORIGINAL SERVER                        |CURRENT SERVER
+OS__________________: Linux                                 |Linux
+PHP VERSION_________: 8.1.22                                |8.2.8
+********************************************************************************
+CURRENT SERVER INFO
+PHP_________________: 8.2.8 | SAPI: litespeed
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+ARCHITECTURE________: 64-bit
+SERVER______________: LiteSpeed
+DOC ROOT____________: "/home/sickenin/sickeningevents"
+REQUEST URL_________: "https://sickeningevents.com"
+********************************************************************************
+OVERWRITE PARAMS
+ *** FROM PACKAGE
+PARAM SET KEY[blogname]
+********************************************************************************
+MAINTENANCE MODE DISABLE
+INSTALLER INFO
+
+TEMPLATE____________: "base"
+VALIDATE ON START___: "normal"
+PATH_NEW____________: "/home/sickenin/sickeningevents"
+URL_NEW_____________: "https://sickeningevents.com"
+********************************************************************************
+ARCHIVE INFO
+
+ARCHIVE NAME________: "/home/sickenin/sickeningevents/sickeningevents_wp_[HASH]_20230830232309_archive.zip"
+ARCHIVE SIZE________: 408.97MB
+CREATED_____________: 2023-08-30 23:23:09
+WP VERSION__________: 6.3.1
+DUP VERSION_________: 1.5.5.1
+LICENSE_____________: Free version
+DB VERSION__________: 10.5.20
+DB FILE SIZE________: 77.02MB
+DB TABLES___________: 33
+DB ROWS_____________: 18366
+URL HOME____________: https://devhubstaging.website/sickeningevents
+URL CORE____________: https://devhubstaging.website/sickeningevents
+URL CONTENT_________: https://devhubstaging.website/sickeningevents/wp-content
+URL UPLOAD__________: https://devhubstaging.website/sickeningevents/wp-content/uploads
+URL PLUGINS_________: https://devhubstaging.website/sickeningevents/wp-content/plugins
+URL MU PLUGINS______: https://devhubstaging.website/sickeningevents/wp-content/mu-plugins
+URL THEMES__________: https://devhubstaging.website/sickeningevents/wp-content/themes
+PATH HOME___________: /home/devhcsdv/public_html/sickeningevents
+PATH ABS____________: /home/devhcsdv/public_html/sickeningevents
+PATH WPCONFIG_______: /home/devhcsdv/public_html/sickeningevents
+PATH WPCONTENT______: /home/devhcsdv/public_html/sickeningevents/wp-content
+PATH UPLOADS________: /home/devhcsdv/public_html/sickeningevents/wp-content/uploads
+PATH PLUGINS________: /home/devhcsdv/public_html/sickeningevents/wp-content/plugins
+PATH MUPLUGINS______: /home/devhcsdv/public_html/sickeningevents/wp-content/mu-plugins
+PATH THEMES_________: /home/devhcsdv/public_html/sickeningevents/wp-content/themes
+
+SUBSITES
+SUBSITE [ID:   1] "devhubstaging.website/sickeningevents/"
+
+PLUGINS
+PLUGIN [SLUG:better-font-awesome/better-font-awesome.php       ][ON:true ]  Better Font Awesome
+PLUGIN [SLUG:child-theme-configurator/child-theme-configurator.php][ON:true ]  Child Theme Configurator
+PLUGIN [SLUG:duplicate-page/duplicatepage.php                  ][ON:true ]  Duplicate Page
+PLUGIN [SLUG:duplicator/duplicator.php                         ][ON:true ]  Duplicator
+PLUGIN [SLUG:elementor/elementor.php                           ][ON:true ]  Elementor
+PLUGIN [SLUG:elementor-pro/elementor-pro.php                   ][ON:true ]  Elementor Pro
+PLUGIN [SLUG:litespeed-cache/litespeed-cache.php               ][ON:false]  LiteSpeed Cache
+PLUGIN [SLUG:popup-maker/popup-maker.php                       ][ON:true ]  Popup Maker
+PLUGIN [SLUG:custom-css-js/custom-css-js.php                   ][ON:true ]  Simple Custom CSS and JS
+PLUGIN [SLUG:unlimited-elements-for-elementor/unlimited_elements.php][ON:false]  Unlimited Elements for Elementor
+PLUGIN [SLUG:wp-file-manager/file_folder_manager.php           ][ON:false]  WP File Manager
+PLUGIN [SLUG:wpforms/wpforms.php                               ][ON:true ]  WPForms
+PLUGIN [SLUG:wpvivid-backuprestore/wpvivid-backuprestore.php   ][ON:true ]  WPvivid Backup Plugin
+
+********************************************************************************
+LOG-TIME[/home/sickenin/sickeningevents/dup-installer/ctrls/ctrl.base.php:227][DELTA:  21.52437]  MESSAGE:END RENDER PAGE
+LOG-TIME[/home/sickenin/sickeningevents/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[/home/sickenin/sickeningevents/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+STEP ACTION: "on-validate"
+LOG-TIME[/home/sickenin/sickeningevents/dup-installer/ctrls/ctrl.base.php:227][DELTA:  10.59930]  MESSAGE:END RENDER PAGE
+LOG-TIME[/home/sickenin/sickeningevents/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [validate] START
+START TEST "Archive Check" [CLASS: DUPX_Validation_test_archive_check]
+LOG-TIME[DELTA:   0.00008]  MESSAGE:TEST "Archive Check" RESULT: passed
+
+START TEST "Duplicator importer version" [CLASS: DUPX_Validation_test_importer_version]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Duplicator importer version" RESULT: skip
+
+START TEST "Overwrite Install" [CLASS: DUPX_Validation_test_owrinstall]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Overwrite Install" RESULT: skip
+
+START TEST "Recovery Point" [CLASS: DUPX_Validation_test_recovery]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Recovery Point" RESULT: skip
+
+START TEST "Package is Importable" [CLASS: DUPX_Validation_test_importable]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Package is Importable" RESULT: skip
+
+START TEST "REST API test" [CLASS: DUPX_Validation_test_rest_api]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "REST API test" RESULT: skip
+
+START TEST "Manual extraction detected" [CLASS: DUPX_Validation_test_manual_extraction]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Manual extraction detected" RESULT: good
+
+START TEST "Database Only" [CLASS: DUPX_Validation_test_dbonly_iswordpress]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Database Only" RESULT: skip
+
+START TEST "Package Age" [CLASS: DUPX_Validation_test_package_age]
+LOG-TIME[DELTA:   0.00007]  MESSAGE:TEST "Package Age" RESULT: good
+
+START TEST "Package Size" [CLASS: DUPX_Validation_test_package_size]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Package Size" RESULT: good
+
+START TEST "Replace PATHs in database" [CLASS: DUPX_Validation_test_replace_paths]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Replace PATHs in database" RESULT: skip
+
+START TEST "Managed hosting supported" [CLASS: DUPX_Validation_test_managed_supported]
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "Managed hosting supported" RESULT: skip
+
+START TEST "Siteground" [CLASS: DUPX_Validation_test_siteground]
+LOG-TIME[DELTA:   0.00024]  MESSAGE:TEST "Siteground" RESULT: skip
+
+START TEST "Addon Sites" [CLASS: DUPX_Validation_test_addon_sites]
+--------------------------------------
+PATHS MAPPING : "/home/sickenin/sickeningevents"
+--------------------------------------
+LOG-TIME[DELTA:   0.21744]  MESSAGE:TEST "Addon Sites" RESULT: good
+
+START TEST "Wordfence" [CLASS: DUPX_Validation_test_wordfence]
+LOG-TIME[DELTA:   0.00041]  MESSAGE:TEST "Wordfence" RESULT: good
+
+START TEST "Table prefix of managed hosting" [CLASS: DUPX_Validation_test_managed_tprefix]
+LOG-TIME[DELTA:   0.00008]  MESSAGE:TEST "Table prefix of managed hosting" RESULT: skip
+
+START TEST "PHP Version Mismatch" [CLASS: DUPX_Validation_test_php_version]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "PHP Version Mismatch" RESULT: good
+
+START TEST "PHP Open Base" [CLASS: DUPX_Validation_test_open_basedir]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Open Base" RESULT: good
+
+START TEST "PHP Memory Limit" [CLASS: DUPX_Validation_test_memory_limit]
+LOG-TIME[DELTA:   0.00006]  MESSAGE:TEST "PHP Memory Limit" RESULT: good
+
+START TEST "PHP Extensions" [CLASS: DUPX_Validation_test_extensions]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "PHP Extensions" RESULT: good
+
+START TEST "PHP Mysqli" [CLASS: DUPX_Validation_test_mysql_connect]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "PHP Mysqli" RESULT: passed
+
+START TEST "PHP Tokenizer" [CLASS: DUPX_Validation_test_tokenizer]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Tokenizer" RESULT: passed
+
+START TEST "PHP Timeout" [CLASS: DUPX_Validation_test_timeout]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "PHP Timeout" RESULT: good
+
+START TEST "Disk Space" [CLASS: DUPX_Validation_test_disk_space]
+LOG-TIME[DELTA:   0.01894]  MESSAGE:TEST "Disk Space" RESULT: good
+
+START TEST "Permissions: General" [CLASS: DUPX_Validation_test_iswritable]
+LOG-TIME[DELTA:   0.01686]  MESSAGE:TEST "Permissions: General" RESULT: passed
+
+START TEST "Permissions: Configs Files " [CLASS: DUPX_Validation_test_iswritable_configs]
+LOG-TIME[DELTA:   0.00012]  MESSAGE:TEST "Permissions: Configs Files " RESULT: passed
+
+START TEST "Host Name" [CLASS: DUPX_Validation_test_db_host_name]
+LOG-TIME[DELTA:   0.00010]  MESSAGE:TEST "Host Name" RESULT: passed
+
+START TEST "Host Connection" [CLASS: DUPX_Validation_test_db_connection]
+LOG-TIME[DELTA:   0.00564]  MESSAGE:TEST "Host Connection" RESULT: passed
+
+START TEST "Database Version" [CLASS: DUPX_Validation_test_db_version]
+LOG-TIME[DELTA:   0.01759]  MESSAGE:TEST "Database Version" RESULT: soft warning
+
+START TEST "Create New Database" [CLASS: DUPX_Validation_test_db_create]
+LOG-TIME[DELTA:   0.00006]  MESSAGE:TEST "Create New Database" RESULT: skip
+
+START TEST "Database Engine Support" [CLASS: DUPX_Validation_test_db_supported_engine]
+LOG-TIME[DELTA:   0.00086]  MESSAGE:TEST "Database Engine Support" RESULT: passed
+
+START TEST "Database GTID Mode" [CLASS: DUPX_Validation_test_db_gtid_mode]
+LOG-TIME[DELTA:   0.00035]  MESSAGE:TEST "Database GTID Mode" RESULT: passed
+
+START TEST "Privileges: User Visibility" [CLASS: DUPX_Validation_test_db_visibility]
+LOG-TIME[DELTA:   0.00072]  MESSAGE:TEST "Privileges: User Visibility" RESULT: passed
+
+START TEST "Manual Table Check" [CLASS: DUPX_Validation_test_db_manual_tabels_count]
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "Manual Table Check" RESULT: skip
+
+START TEST "Multiple WordPress Installs" [CLASS: DUPX_Validation_test_db_multiple_wp_installs]
+LOG-TIME[DELTA:   0.00078]  MESSAGE:TEST "Multiple WordPress Installs" RESULT: passed
+
+START TEST "Privileges: User Resources" [CLASS: DUPX_Validation_test_db_user_resources]
+DB QUERY [ERROR][/home/sickenin/sickeningevents/dup-installer/classes/database/class.db.php:645] MSG: SELECT command denied to user 'sickenin_wp'@'localhost' for table 'user'
+	SQL: SELECT max_questions, max_updates, max_connections FROM mysql.user WHERE user = 'sickenin_wp' AND host = 'localhost'
+TRACE[1] CLASS___: DUPX_DB::mysqli_query      FILE: /home/sickenin/sickeningevents/dup-installer/classes/validation/class.validation.database.service.php[742]
+TRACE[2] CLASS___: DUPX_Validation_database_service->getUserResources FILE: /home/sickenin/sickeningevents/dup-installer/classes/validation/database-tests/class.validation.test.db.user.resources.php[28]
+TRACE[3] CLASS___: DUPX_Validation_test_db_user_resources->runTest FILE: /home/sickenin/sickeningevents/dup-installer/classes/validation/class.validation.abstract.item.php[46]
+TRACE[4] CLASS___: DUPX_Validation_abstract_item->test FILE: /home/sickenin/sickeningevents/dup-installer/classes/validation/class.validation.manager.php[232]
+TRACE[5] CLASS___: DUPX_Validation_manager->runTests FILE: /home/sickenin/sickeningevents/dup-installer/classes/validation/class.validation.manager.php[205]
+TRACE[6] CLASS___: DUPX_Validation_manager->getValidateData FILE: /home/sickenin/sickeningevents/dup-installer/ctrls/classes/class.ctrl.ajax.php[173]
+TRACE[7] CLASS___: DUPX_Ctrl_ajax::actions    FILE: /home/sickenin/sickeningevents/dup-installer/ctrls/classes/class.ctrl.ajax.php[95]
+TRACE[8] CLASS___: DUPX_Ctrl_ajax::controller FILE: /home/sickenin/sickeningevents/dup-installer/main.installer.php[56]
+
+LOG-TIME[DELTA:   0.00101]  MESSAGE:TEST "Privileges: User Resources" RESULT: passed
+
+START TEST "Privileges: User Table Access" [CLASS: DUPX_Validation_test_db_user_perms]
+LOG-TIME[DELTA:   0.03629]  MESSAGE:TEST "Privileges: User Table Access" RESULT: passed
+
+START TEST "Privileges: 'Show Variables' Query" [CLASS: DUPX_Validation_test_db_custom_queries]
+LOG-TIME[DELTA:   0.00237]  MESSAGE:TEST "Privileges: 'Show Variables' Query" RESULT: passed
+
+START TEST "Source Database Triggers" [CLASS: DUPX_Validation_test_db_triggers]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Source Database Triggers" RESULT: passed
+
+START TEST "Character Set and Collation Support" [CLASS: DUPX_Validation_test_db_supported_default_charset]
+LOG-TIME[DELTA:   0.00146]  MESSAGE:TEST "Character Set and Collation Support" RESULT: passed
+
+START TEST "Character Set and  Collation Capability" [CLASS: DUPX_Validation_test_db_supported_charset]
+LOG-TIME[DELTA:   0.00013]  MESSAGE:TEST "Character Set and  Collation Capability" RESULT: passed
+
+START TEST "Tables Case Sensitivity" [CLASS: DUPX_Validation_test_db_case_sensitive_tables]
+LOG-TIME[DELTA:   0.00252]  MESSAGE:TEST "Tables Case Sensitivity" RESULT: passed
+
+START TEST "Tables Flagged for Removal or Backup" [CLASS: DUPX_Validation_test_db_affected_tables]
+LOG-TIME[DELTA:   0.00074]  MESSAGE:TEST "Tables Flagged for Removal or Backup" RESULT: passed
+
+START TEST "Prefix too long" [CLASS: DUPX_Validation_test_db_prefix_too_long]
+LOG-TIME[DELTA:   0.00018]  MESSAGE:TEST "Prefix too long" RESULT: passed
+
+START TEST "Database cleanup" [CLASS: DUPX_Validation_test_db_cleanup]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Database cleanup" RESULT: skip
+
+
+CTRL PARAMS AFTER VALIDATION
+AJAX ACTION [validate] SUCCESS
+-------------------------
+
+LOG-TIME[/home/sickenin/sickeningevents/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [proceed_confirm_dialog] START
+AJAX ACTION [proceed_confirm_dialog] SUCCESS
+-------------------------
+
+LOG-TIME[/home/sickenin/sickeningevents/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[/home/sickenin/sickeningevents/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+INITIALIZE FILTERS
+--------------------------------------
+PATHS MAPPING : "/home/sickenin/sickeningevents"
+--------------------------------------
+********************************************************************************
+* DUPLICATOR LITE: Install-Log
+* STEP-1 START @ 12:04:25
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+INSTALL TYPE________: single site
+BLOG NAME___________: "Blog"
+HOME URL NEW________: "https://sickeningevents.com"
+SITE URL NEW________: "https://sickeningevents.com/"
+CONTENT URL NEW_____: "https://sickeningevents.com/wp-content"
+UPLOAD URL NEW______: "https://sickeningevents.com/wp-content/uploads"
+PLUGINS URL NEW_____: "https://sickeningevents.com/wp-content/plugins"
+MUPLUGINS URL NEW___: "https://sickeningevents.com/wp-content/mu-plugins"
+HOME PATH NEW_______: "/home/sickenin/sickeningevents"
+SITE PATH NEW_______: "/home/sickenin/sickeningevents/"
+CONTENT PATH NEW____: "/home/sickenin/sickeningevents/wp-content"
+UPLOAD PATH NEW_____: "/home/sickenin/sickeningevents/wp-content/uploads"
+PLUGINS PATH NEW____: "/home/sickenin/sickeningevents/wp-content/plugins"
+MUPLUGINS PATH NEW__: "/home/sickenin/sickeningevents/wp-content/mu-plugins"
+ARCHIVE ACTION______: "donothing"
+SKIP WP FILES_______: "none"
+ARCHIVE ENGINE______: "ziparchivechunking"
+SET DIR PERMS_______: true
+DIR PERMS VALUE_____: 0755
+SET FILE PERMS______: true
+FILE PERMS VALUE____: 0644
+SAFE MODE___________: 0
+LOGGING_____________: 1
+ZIP THROTTLING______: false
+WP CONFIG___________: "modify"
+HTACCESS CONFIG_____: "new"
+OTHER CONFIG________: "new"
+FILE TIME___________: "current"
+********************************************************************************
+
+REMOVE FILTERS
+	DIR : "/home/sickenin/sickeningevents/dup-installer"
+	FILE: "/home/sickenin/sickeningevents/sickeningevents_wp_[HASH]_20230830232309_installer-backup.php"
+	FILE: "/home/sickenin/sickeningevents/sickeningevents_wp_[HASH]_20230830232309_archive.zip"
+	FILE: "/home/sickenin/sickeningevents/installer.php"
+	FILE: "/home/sickenin/sickeningevents/dup-installer-bootlog__2ea26dd-30232309.txt"
+EXTRACTION FILTERS
+	DIR : "dup-installer"
+	FILE: "sickeningevents_wp_[HASH]_20230830232309_installer-backup.php"
+--------------------------------------
+
+
+EXTRACTION: ZIP CHUNKING >>> START
+MAINTENANCE MODE ENABLE
+BEFORE EXTRACION ACTIONS
+
+*** RESET CONFIG FILES IN CURRENT HOSTING >>> START
+
+*** RESET CONFIG FILES IN CURRENT HOSTING >>> END
+MAINTENANCE MODE ENABLE
+
+*** CREATE FOLDER AND PERMISSION PREPARE
+FOLDER PREPARE DONE
+ARCHIVE OFFSET 0
+CHUNK COMPLETE - RUNTIME: 21.0824 sec. - Files processed: 2,511 of 15,439
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/sickenin/sickeningevents/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 2511
+--------------------------------------
+PATHS MAPPING : "/home/sickenin/sickeningevents"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 8.9475 sec. - Files processed: 2,747 of 15,439
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/sickenin/sickeningevents/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 2747
+--------------------------------------
+PATHS MAPPING : "/home/sickenin/sickeningevents"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0100 sec. - Files processed: 3,744 of 15,439
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/sickenin/sickeningevents/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 3744
+--------------------------------------
+PATHS MAPPING : "/home/sickenin/sickeningevents"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0440 sec. - Files processed: 5,278 of 15,439
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/sickenin/sickeningevents/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 5278
+--------------------------------------
+PATHS MAPPING : "/home/sickenin/sickeningevents"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 8.6418 sec. - Files processed: 5,970 of 15,439
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/sickenin/sickeningevents/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 5970
+--------------------------------------
+PATHS MAPPING : "/home/sickenin/sickeningevents"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 8.1185 sec. - Files processed: 6,442 of 15,439
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/sickenin/sickeningevents/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 6442
+--------------------------------------
+PATHS MAPPING : "/home/sickenin/sickeningevents"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0192 sec. - Files processed: 7,908 of 15,439
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/sickenin/sickeningevents/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 7908
+--------------------------------------
+PATHS MAPPING : "/home/sickenin/sickeningevents"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0188 sec. - Files processed: 9,608 of 15,439
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/sickenin/sickeningevents/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 9608
+--------------------------------------
+PATHS MAPPING : "/home/sickenin/sickeningevents"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 7.0539 sec. - Files processed: 10,418 of 15,439
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/sickenin/sickeningevents/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 10418
+--------------------------------------
+PATHS MAPPING : "/home/sickenin/sickeningevents"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0240 sec. - Files processed: 10,549 of 15,439
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/sickenin/sickeningevents/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 10549
+--------------------------------------
+PATHS MAPPING : "/home/sickenin/sickeningevents"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0952 sec. - Files processed: 11,211 of 15,439
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/sickenin/sickeningevents/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 11211
+--------------------------------------
+PATHS MAPPING : "/home/sickenin/sickeningevents"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.5356 sec. - Files processed: 11,477 of 15,439
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/sickenin/sickeningevents/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 11477
+--------------------------------------
+PATHS MAPPING : "/home/sickenin/sickeningevents"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.1332 sec. - Files processed: 11,612 of 15,439
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/sickenin/sickeningevents/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 11612
+--------------------------------------
+PATHS MAPPING : "/home/sickenin/sickeningevents"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 37.2956 sec. - Files processed: 11,779 of 15,439
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/sickenin/sickeningevents/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 11779
+--------------------------------------
+PATHS MAPPING : "/home/sickenin/sickeningevents"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 32.2404 sec. - Files processed: 11,784 of 15,439
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/sickenin/sickeningevents/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 11784
+--------------------------------------
+PATHS MAPPING : "/home/sickenin/sickeningevents"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 18.8513 sec. - Files processed: 12,635 of 15,439
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/sickenin/sickeningevents/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 12635
+--------------------------------------
+PATHS MAPPING : "/home/sickenin/sickeningevents"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0118 sec. - Files processed: 13,332 of 15,439
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/sickenin/sickeningevents/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 13332
+--------------------------------------
+PATHS MAPPING : "/home/sickenin/sickeningevents"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 5.0263 sec. - Files processed: 14,566 of 15,439
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/sickenin/sickeningevents/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 14566
+--------------------------------------
+PATHS MAPPING : "/home/sickenin/sickeningevents"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 8.5577 sec. - Files processed: 14,645 of 15,439
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/sickenin/sickeningevents/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 14645
+--------------------------------------
+PATHS MAPPING : "/home/sickenin/sickeningevents"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 9.1972 sec. - Files processed: 14,702 of 15,439
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/sickenin/sickeningevents/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 14702
+--------------------------------------
+PATHS MAPPING : "/home/sickenin/sickeningevents"
+--------------------------------------
+CHUNK COMPLETE - RUNTIME: 12.8770 sec. - Files processed: 15,430 of 15,439
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/sickenin/sickeningevents/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+MAINTENANCE MODE ENABLE
+ARCHIVE OFFSET 15430
+--------------------------------------
+PATHS MAPPING : "/home/sickenin/sickeningevents"
+--------------------------------------
+FILE EXTRACTION: done processing last file in list of 16045
+
+EXTRACTION: ZIP CHUNKING >>> DONE
+
+EXTRACTION COMPLETE @ 12:11:35 - RUNTIME: 430.4302 sec. - Files processed: 15,439 of 15,439
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/home/sickenin/sickeningevents/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+ADD PREFIX META MAP ID 0 wpdx_
+
+
+
+********************************************************************************
+* DUPLICATOR LITE: INSTALL-LOG
+* STEP-2 START @ 12:12:24
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+DB ENGINE___________: "chunk"
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+USER MODE___________: "overwrite"
+TABLE PREFIX________: "wpdx_"
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8mb4"
+COLLATE_____________: ""
+CUNKING_____________: true
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTIONS___________: true
+REMOVE DEFINER______: false
+SPLIT CREATES_______: true
+--------------------------------------
+TABLES
+--------------------------------------
+TABLE "wpdx_actionscheduler_actions"____________________[ROWS:      50] [EXTRACT|REPLACE] [INST NAME: wpdx_actionscheduler_actions]
+TABLE "wpdx_actionscheduler_claims"_____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpdx_actionscheduler_claims]
+TABLE "wpdx_actionscheduler_groups"_____________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: wpdx_actionscheduler_groups]
+TABLE "wpdx_actionscheduler_logs"_______________________[ROWS:     138] [EXTRACT|REPLACE] [INST NAME: wpdx_actionscheduler_logs]
+TABLE "wpdx_commentmeta"________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpdx_commentmeta]
+TABLE "wpdx_comments"___________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wpdx_comments]
+TABLE "wpdx_duplicator_packages"________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wpdx_duplicator_packages]
+TABLE "wpdx_e_events"___________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpdx_e_events]
+TABLE "wpdx_e_notes"____________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpdx_e_notes]
+TABLE "wpdx_e_notes_users_relations"____________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpdx_e_notes_users_relations]
+TABLE "wpdx_e_submissions"______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpdx_e_submissions]
+TABLE "wpdx_e_submissions_actions_log"__________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpdx_e_submissions_actions_log]
+TABLE "wpdx_e_submissions_values"_______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpdx_e_submissions_values]
+TABLE "wpdx_links"______________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpdx_links]
+TABLE "wpdx_litespeed_url"______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpdx_litespeed_url]
+TABLE "wpdx_litespeed_url_file"_________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpdx_litespeed_url_file]
+TABLE "wpdx_options"____________________________________[ROWS:     551] [EXTRACT|REPLACE] [INST NAME: wpdx_options]
+TABLE "wpdx_postmeta"___________________________________[ROWS:   15393] [EXTRACT|REPLACE] [INST NAME: wpdx_postmeta]
+TABLE "wpdx_posts"______________________________________[ROWS:    2122] [EXTRACT|REPLACE] [INST NAME: wpdx_posts]
+TABLE "wpdx_termmeta"___________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpdx_termmeta]
+TABLE "wpdx_terms"______________________________________[ROWS:      10] [EXTRACT|REPLACE] [INST NAME: wpdx_terms]
+TABLE "wpdx_term_relationships"_________________________[ROWS:      52] [EXTRACT|REPLACE] [INST NAME: wpdx_term_relationships]
+TABLE "wpdx_term_taxonomy"______________________________[ROWS:      10] [EXTRACT|REPLACE] [INST NAME: wpdx_term_taxonomy]
+TABLE "wpdx_usermeta"___________________________________[ROWS:      30] [EXTRACT|REPLACE] [INST NAME: wpdx_usermeta]
+TABLE "wpdx_users"______________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wpdx_users]
+TABLE "wpdx_wpfm_backup"________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpdx_wpfm_backup]
+TABLE "wpdx_wpforms_entries"____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpdx_wpforms_entries]
+TABLE "wpdx_wpforms_entry_fields"_______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpdx_wpforms_entry_fields]
+TABLE "wpdx_wpforms_entry_meta"_________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpdx_wpforms_entry_meta]
+TABLE "wpdx_wpforms_payments"___________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpdx_wpforms_payments]
+TABLE "wpdx_wpforms_payment_meta"_______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpdx_wpforms_payment_meta]
+TABLE "wpdx_wpforms_tasks_meta"_________________________[ROWS:       5] [EXTRACT|REPLACE] [INST NAME: wpdx_wpforms_tasks_meta]
+TABLE "wpdx_wpvivid_options"____________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wpdx_wpvivid_options]
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.7.42 -- Build Server: 10.5.20
+FILE SIZE:	dup-database__[HASH].sql (84.51MB)
+TIMEOUT:	5000
+MAXPACK:	536870912
+SQLMODE-GLOBAL:	
+SQLMODE-SESSION:NO_AUTO_VALUE_ON_ZERO
+DROP ALL TABLES
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+QUERY FIXES
+GLOBAL RULES ADDED: PROC AND VIEWS
+
+QUERY FIXES GLOBAL RULES
+	SEARCH  => /^(\s*(?:\/\*!\d+\s)?\s*(?:CREATE.+)?DEFINER\s*=)([^\*\s]+)(.*)$/m
+	REPLACE => $1`sickenin_wp`@`localhost`$3
+
+	SEARCH  => /^(\s*CREATE.+(?:PROCEDURE|FUNCTION)[\s\S]*)(BEGIN)([\s\S]*)$/
+	REPLACE => $1SQL SECURITY INVOKER
+$2$3
+
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 0
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	376
+
+TABLES ROWS IN DATABASE AFTER EXTRACTION
+
+TABLE "wpdx_actionscheduler_actions"____________________[ROWS:    50]
+TABLE "wpdx_actionscheduler_claims"_____________________[ROWS:     0]
+TABLE "wpdx_actionscheduler_groups"_____________________[ROWS:     2]
+TABLE "wpdx_actionscheduler_logs"_______________________[ROWS:   138]
+TABLE "wpdx_commentmeta"________________________________[ROWS:     0]
+TABLE "wpdx_comments"___________________________________[ROWS:     1]
+TABLE "wpdx_duplicator_packages"________________________[ROWS:     1]
+TABLE "wpdx_e_events"___________________________________[ROWS:     0]
+TABLE "wpdx_e_notes"____________________________________[ROWS:     0]
+TABLE "wpdx_e_notes_users_relations"____________________[ROWS:     0]
+TABLE "wpdx_e_submissions"______________________________[ROWS:     0]
+TABLE "wpdx_e_submissions_actions_log"__________________[ROWS:     0]
+TABLE "wpdx_e_submissions_values"_______________________[ROWS:     0]
+TABLE "wpdx_links"______________________________________[ROWS:     0]
+TABLE "wpdx_litespeed_url"______________________________[ROWS:     0]
+TABLE "wpdx_litespeed_url_file"_________________________[ROWS:     0]
+TABLE "wpdx_options"____________________________________[ROWS:   551]
+TABLE "wpdx_postmeta"___________________________________[ROWS: 15393]
+TABLE "wpdx_posts"______________________________________[ROWS:  2122]
+TABLE "wpdx_term_relationships"_________________________[ROWS:    52]
+TABLE "wpdx_term_taxonomy"______________________________[ROWS:    10]
+TABLE "wpdx_termmeta"___________________________________[ROWS:     0]
+TABLE "wpdx_terms"______________________________________[ROWS:    10]
+TABLE "wpdx_usermeta"___________________________________[ROWS:    30]
+TABLE "wpdx_users"______________________________________[ROWS:     1]
+TABLE "wpdx_wpfm_backup"________________________________[ROWS:     0]
+TABLE "wpdx_wpforms_entries"____________________________[ROWS:     0]
+TABLE "wpdx_wpforms_entry_fields"_______________________[ROWS:     0]
+TABLE "wpdx_wpforms_entry_meta"_________________________[ROWS:     0]
+TABLE "wpdx_wpforms_payment_meta"_______________________[ROWS:     0]
+TABLE "wpdx_wpforms_payments"___________________________[ROWS:     0]
+TABLE "wpdx_wpforms_tasks_meta"_________________________[ROWS:     5]
+TABLE "wpdx_wpvivid_options"____________________________[ROWS:     0]
+
+INSERT DATA RUNTIME: 10.8351 sec.
+STEP-2 COMPLETE @ 12:12:35 - RUNTIME: 10.8351 sec.
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[/home/sickenin/sickeningevents/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+====================================
+SET SEARCH AND REPLACE LIST INSTALL TYPE single site
+====================================
+SEARCH ITEM[T:path |P:12] SEARCH: /home/devhcsdv/public_html/sickeningevents REPLACE: /home/sickenin/sickeningevents/ [SCOPE: ALL]
+SEARCH ITEM[T:path |P:12] SEARCH: /home/devhcsdv/public_html/sickeningevents REPLACE: /home/sickenin/sickeningevents [SCOPE: ALL]
+SEARCH ITEM[T:urlnd|P:12] SEARCH: https://devhubstaging.website/sickeningevents REPLACE: https://sickeningevents.com/ [SCOPE: ALL]
+SEARCH ITEM[T:urlnd|P:12] SEARCH: https://devhubstaging.website/sickeningevents REPLACE: https://sickeningevents.com [SCOPE: ALL]
+CHUNK LOAD DATA: IS NULL 
+CHUNK ACTION: CURRENT [start][][]
+
+
+********************************************************************************
+DUPLICATOR LITE: INSTALL-LOG
+STEP-3 START @ 12:12:35
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8mb4"
+CHARSET CLIENT:	"utf8mb4"
+********************************************************************************
+OPTIONS:
+SKIP PATH REPLACE_____: false
+DISALLOW_FILE_EDIT____: [value = ], [inWpConfig = ]
+DISALLOW_FILE_MODS____: [value = ], [inWpConfig = ]
+AUTOSAVE_INTERVAL_____: [value = 60], [inWpConfig = ]
+WP_POST_REVISIONS_____: [value = 1], [inWpConfig = ]
+FORCE_SSL_ADMIN_______: [value = 1], [inWpConfig = ]
+WP_AUTO_UPDATE_CORE___: [value = false], [inWpConfig = ]
+WP_CACHE______________: [value = 1], [inWpConfig = 1]
+WPCACHEHOME___________: [value = /], [inWpConfig = ]
+WP_DEBUG______________: [value = ], [inWpConfig = 1]
+WP_DEBUG_LOG__________: [value = ], [inWpConfig = ]
+WP_DEBUG_DISPLAY______: [value = 1], [inWpConfig = ]
+WP_DISABLE_FATAL_ERROR_HANDLER: [value = ], [inWpConfig = ]
+SCRIPT_DEBUG__________: [value = ], [inWpConfig = ]
+CONCATENATE_SCRIPTS___: [value = ], [inWpConfig = ]
+SAVEQUERIES___________: [value = ], [inWpConfig = ]
+ALTERNATE_WP_CRON_____: [value = ], [inWpConfig = ]
+DISABLE_WP_CRON_______: [value = ], [inWpConfig = ]
+WP_CRON_LOCK_TIMEOUT__: [value = 60], [inWpConfig = ]
+COOKIE_DOMAIN_________: [value = ], [inWpConfig = ]
+WP_MEMORY_LIMIT_______: [value = 40M], [inWpConfig = ]
+WP_MAX_MEMORY_LIMIT___: [value = 1024M], [inWpConfig = ]
+WP_TEMP_DIR___________: [value = ], [inWpConfig = ]
+********************************************************************************
+
+********************************************************************************
+CHUNK PARAMS:
+maxIteration__________: 0
+timeOut_______________: 5000
+throttling____________: 2
+rowsPerPage___________: 1000
+********************************************************************************
+
+CHUNK ACTION: CURRENT [cleanup_trans][][]
+CLEAN OPTIONS [wpdx_options]
+	`option_name` LIKE "\_transient%"
+	`option_name` LIKE "\_site\_transient%"
+	`option_name` IN ("duplicator_ui_view_state","duplicator_package_active","duplicator_settings","duplicator_is_pro_enable_notice_dismissed")
+DATABASE OPTIONS DELETED [ROWS:    40]
+CHUNK ACTION: CURRENT [cleanup_extra][][]
+CLEANUP EXTRA
+	- SKIP DROP VIEWS
+	- SKIP DROP PROCS
+	- SKIP DROP FUNCS
+CHUNK ACTION: CURRENT [cleanup_packages][][]
+EMPTY PACKAGES TABLE
+CLEAN PACKAGES
+DATABASE PACKAGE DELETED [ROWS:     1]
+CHUNK ACTION: CURRENT [init][][]
+
+EVALUATE TABLE: "wpdx_actionscheduler_actions"____________________[ROWS:    50][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/devhcsdv/public_html/sickeningevents" ======> "/home/sickenin/sickeningevents"
+	SEARCH[urlnd]  2:"https://devhubstaging.website/sickeningevents" ===> "https://sickeningevents.com"
+	CHUNK ACTION: CURRENT [search_replace][wpdx_actionscheduler_actions][0]
+
+EVALUATE TABLE: "wpdx_actionscheduler_claims"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpdx_actionscheduler_groups"_____________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/devhcsdv/public_html/sickeningevents" ======> "/home/sickenin/sickeningevents"
+	SEARCH[urlnd]  2:"https://devhubstaging.website/sickeningevents" ===> "https://sickeningevents.com"
+	CHUNK ACTION: CURRENT [search_replace][wpdx_actionscheduler_groups][0]
+
+EVALUATE TABLE: "wpdx_actionscheduler_logs"_______________________[ROWS:   138][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/devhcsdv/public_html/sickeningevents" ======> "/home/sickenin/sickeningevents"
+	SEARCH[urlnd]  2:"https://devhubstaging.website/sickeningevents" ===> "https://sickeningevents.com"
+	CHUNK ACTION: CURRENT [search_replace][wpdx_actionscheduler_logs][0]
+
+EVALUATE TABLE: "wpdx_commentmeta"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpdx_comments"___________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/devhcsdv/public_html/sickeningevents" ======> "/home/sickenin/sickeningevents"
+	SEARCH[urlnd]  2:"https://devhubstaging.website/sickeningevents" ===> "https://sickeningevents.com"
+	CHUNK ACTION: CURRENT [search_replace][wpdx_comments][0]
+
+EVALUATE TABLE: "wpdx_duplicator_packages"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpdx_e_events"___________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpdx_e_notes"____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpdx_e_notes_users_relations"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpdx_e_submissions"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpdx_e_submissions_actions_log"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpdx_e_submissions_values"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpdx_links"______________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpdx_litespeed_url"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpdx_litespeed_url_file"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpdx_options"____________________________________[ROWS:   511][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/devhcsdv/public_html/sickeningevents" ======> "/home/sickenin/sickeningevents"
+	SEARCH[urlnd]  2:"https://devhubstaging.website/sickeningevents" ===> "https://sickeningevents.com"
+	CHUNK ACTION: CURRENT [search_replace][wpdx_options][0]
+
+EVALUATE TABLE: "wpdx_postmeta"___________________________________[ROWS: 15393][PG:  16][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/devhcsdv/public_html/sickeningevents" ======> "/home/sickenin/sickeningevents"
+	SEARCH[urlnd]  2:"https://devhubstaging.website/sickeningevents" ===> "https://sickeningevents.com"
+	CHUNK ACTION: CURRENT [search_replace][wpdx_postmeta][0]
+	CHUNK ACTION: CURRENT [search_replace][wpdx_postmeta][1]
+	CHUNK ACTION: CURRENT [search_replace][wpdx_postmeta][2]
+	CHUNK ACTION: CURRENT [search_replace][wpdx_postmeta][3]
+	CHUNK ACTION: CURRENT [search_replace][wpdx_postmeta][4]
+	CHUNK ACTION: CURRENT [search_replace][wpdx_postmeta][5]
+	CHUNK ACTION: CURRENT [search_replace][wpdx_postmeta][6]
+	CHUNK ACTION: CURRENT [search_replace][wpdx_postmeta][7]
+	CHUNK ACTION: CURRENT [search_replace][wpdx_postmeta][8]
+	CHUNK ACTION: CURRENT [search_replace][wpdx_postmeta][9]
+	CHUNK ACTION: CURRENT [search_replace][wpdx_postmeta][10]
+	
+STEP-3 CHUNK STOP @ 12:12:40 - RUNTIME: 5.0288 sec. 
+
+
+	AJAX ACTION [webupdate] SUCCESS
+	-------------------------
+
+LOG-TIME[/home/sickenin/sickeningevents/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+CHUNK ACTION: CURRENT [search_replace][wpdx_postmeta][11]
+CHUNK ACTION: CURRENT [search_replace][wpdx_postmeta][12]
+CHUNK ACTION: CURRENT [search_replace][wpdx_postmeta][13]
+CHUNK ACTION: CURRENT [search_replace][wpdx_postmeta][14]
+CHUNK ACTION: CURRENT [search_replace][wpdx_postmeta][15]
+
+EVALUATE TABLE: "wpdx_posts"______________________________________[ROWS:  2122][PG:   3][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/devhcsdv/public_html/sickeningevents" ======> "/home/sickenin/sickeningevents"
+	SEARCH[urlnd]  2:"https://devhubstaging.website/sickeningevents" ===> "https://sickeningevents.com"
+	CHUNK ACTION: CURRENT [search_replace][wpdx_posts][0]
+	CHUNK ACTION: CURRENT [search_replace][wpdx_posts][1]
+	CHUNK ACTION: CURRENT [search_replace][wpdx_posts][2]
+
+EVALUATE TABLE: "wpdx_termmeta"___________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpdx_terms"______________________________________[ROWS:    10][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/devhcsdv/public_html/sickeningevents" ======> "/home/sickenin/sickeningevents"
+	SEARCH[urlnd]  2:"https://devhubstaging.website/sickeningevents" ===> "https://sickeningevents.com"
+	CHUNK ACTION: CURRENT [search_replace][wpdx_terms][0]
+
+EVALUATE TABLE: "wpdx_term_relationships"_________________________[ROWS:    52][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpdx_term_taxonomy"______________________________[ROWS:    10][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/devhcsdv/public_html/sickeningevents" ======> "/home/sickenin/sickeningevents"
+	SEARCH[urlnd]  2:"https://devhubstaging.website/sickeningevents" ===> "https://sickeningevents.com"
+	CHUNK ACTION: CURRENT [search_replace][wpdx_term_taxonomy][0]
+
+EVALUATE TABLE: "wpdx_usermeta"___________________________________[ROWS:    30][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/devhcsdv/public_html/sickeningevents" ======> "/home/sickenin/sickeningevents"
+	SEARCH[urlnd]  2:"https://devhubstaging.website/sickeningevents" ===> "https://sickeningevents.com"
+	CHUNK ACTION: CURRENT [search_replace][wpdx_usermeta][0]
+
+EVALUATE TABLE: "wpdx_users"______________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/devhcsdv/public_html/sickeningevents" ======> "/home/sickenin/sickeningevents"
+	SEARCH[urlnd]  2:"https://devhubstaging.website/sickeningevents" ===> "https://sickeningevents.com"
+	CHUNK ACTION: CURRENT [search_replace][wpdx_users][0]
+
+EVALUATE TABLE: "wpdx_wpfm_backup"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpdx_wpforms_entries"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpdx_wpforms_entry_fields"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpdx_wpforms_entry_meta"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpdx_wpforms_payments"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpdx_wpforms_payment_meta"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wpdx_wpforms_tasks_meta"_________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home/devhcsdv/public_html/sickeningevents" ======> "/home/sickenin/sickeningevents"
+	SEARCH[urlnd]  2:"https://devhubstaging.website/sickeningevents" ===> "https://sickeningevents.com"
+	CHUNK ACTION: CURRENT [search_replace][wpdx_wpforms_tasks_meta][0]
+
+EVALUATE TABLE: "wpdx_wpvivid_options"____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+--------------------------------------
+SCANNED:	Tables:33 	|	 Rows:18273 	|	 Cells:114031 
+UPDATED:	Tables:4 	|	 Rows:3975 	|	 Cells:5391 
+ERRORS:		0 
+RUNTIME:	9.472200 sec
+CHUNK ACTION: CURRENT [rem_maintenance][][]
+
+====================================
+REMOVE MAINTENANCE MODE
+====================================
+MAINTENANCE MODE DISABLE
+CHUNK ACTION: CURRENT [config_update][][]
+SET CONFIG FILES
+Retained original entry wpconfig target:/home/sickenin/sickeningevents/wp-config.php
+New htaccess file created:/home/sickenin/sickeningevents/.htaccess
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE ABSPATH "dirname(__FILE__) . '/'"
+	UPDATE WP_SITEURL "https://sickeningevents.com/"
+	UPDATE DB_NAME ""sickenin_sickeningeventswp""
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	UPDATE DB_CHARSET "utf8mb4"
+	UPDATE DB_COLLATE ""
+	WP CONFIG UPDATE WP_CACHE "true"
+	WP CONFIG UPDATE WP_DEBUG "false"
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE
+====================================
+
+WEB SERVER CONFIGURATION FILE UPDATED:
+- Preparing .htaccess file with basic setup.
+HTACCESS FILE - Successfully updated the .htaccess file setting.
+
+====================================
+INDEX.PHP UPDATE
+====================================
+INDEX.PHP updated with new blog header "dirname(__FILE__) . '/wp-blog-header.php'"
+
+CHUNK ACTION: CURRENT [gen_update][][]
+
+====================================
+GENERAL UPDATES
+====================================
+
+====================================
+MANAGE PLUGINS
+====================================
+CHUNK ACTION: CURRENT [gen_clean][][]
+
+====================================
+GENERAL CLEANUP
+====================================
+RESET ALL USERS SESSION TOKENS
+MIGRATION INFO SET
+CHUNK ACTION: CURRENT [create_admin][][]
+
+====================================
+RESET USERS PASSWORD
+====================================
+CHUNK ACTION: CURRENT [notice_test][][]
+
+====================================
+CHECK FOR INDEX.HTML
+====================================
+NO INDEX.HTML WAS FOUND
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+CHUNK ACTION: CURRENT [cleanup_tmp_files][][]
+
+====================================
+CLEANUP TMP FILES
+====================================
+CHUNK ACTION: CURRENT [set_files_perms][][]
+
+====================================
+SET PARAMS PERMISSION
+====================================
+
+*** SET FOLDER PERMISSION AFTER EXTRACTION
+--------------------------------------
+PATHS MAPPING : "/home/sickenin/sickeningevents"
+--------------------------------------
+SET FOLDER PERMISSION DONE
+CHUNK ACTION: CURRENT [final_report][][]
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 12:12:45 - RUNTIME: 4.3094 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+LOG-TIME[/home/sickenin/sickeningevents/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [finalpre] START
+AJAX ACTION [finalpre] SUCCESS
+-------------------------
+
+LOG-TIME[/home/sickenin/sickeningevents/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [finalafter] START
+AJAX ACTION [finalafter] SUCCESS
+-------------------------
+
+LOG-TIME[/home/sickenin/sickeningevents/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+====================================
+NEXT STEP NOTICES
+====================================
+-----------------------
+[NOTICE] Plugin Popup Maker disabled by default
+	SECTIONS: plugins
+	LONG MSG: This plugin is deactivated by default automatically due to issues that one may encounter when migrating. You must reactivate from the WordPress admin panel after completing the installation or from the plugins tab. Your site's frontend will render properly after reactivating the plugin.
+
+====================================
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[NOTICE] Popup Maker has been deactivated
+	SECTIONS: plugins
+
+-----------------------
+[NOTICE] Activate Popup Maker after you login.
+	SECTIONS: plugins
+
+-----------------------
+[NOTICE] Warnings or notices on WordPress front-end tests!
+	SECTIONS: general
+	LONG MSG: SCRIPT FILE TEST: /home/sickenin/sickeningevents/index.php
+E_DEPRECATED strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated
+	FILE: /home/sickenin/sickeningevents/wp-content/plugins/elementor-pro/modules/loop-builder/module.php[210]
+	--- TRACE ---
+	FUNCTION: strpos                        FILE: /home/sickenin/sickeningevents/wp-content/plugins/elementor-pro/modules/loop-builder/module.php[210]
+	CLASS___: ElementorPro\Modules\LoopBuilder\Module->is_editing_existing_loop_itemFILE: /home/sickenin/sickeningevents/wp-content/plugins/elementor-pro/modules/loop-builder/module.php[222]
+	CLASS___: ElementorPro\Modules\LoopBuilder\Module->is_loop_theme_builderFILE: /home/sickenin/sickeningevents/wp-content/plugins/elementor-pro/modules/loop-builder/module.php[60]
+	CLASS___: ElementorPro\Modules\LoopBuilder\Module->__constructFILE: /home/sickenin/sickeningevents/wp-content/plugins/elementor/core/base/module.php[85]
+	CLASS___: Elementor\Core\Base\Module::instanceFILE: /home/sickenin/sickeningevents/wp-content/plugins/elementor-pro/core/modules-manager.php[87]
+	CLASS___: ElementorPro\Core\Modules_Manager->__constructFILE: /home/sickenin/sickeningevents/wp-content/plugins/elementor-pro/plugin.php[363]
+	CLASS___: ElementorPro\Plugin->on_elementor_initFILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[310]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[334]
+	CLASS___: WP_Hook->do_action            FILE: /home/sickenin/sickeningevents/wp-includes/plugin.php[517]
+	FUNCTION: do_action                     FILE: /home/sickenin/sickeningevents/wp-content/plugins/elementor/includes/plugin.php[658]
+	CLASS___: Elementor\Plugin->init        FILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[310]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[334]
+	CLASS___: WP_Hook->do_action            FILE: /home/sickenin/sickeningevents/wp-includes/plugin.php[517]
+	FUNCTION: do_action                     FILE: /home/sickenin/sickeningevents/wp-settings.php[632]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-config.php[109]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-load.php[50]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /home/sickenin/sickeningevents/index.php[17]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-content/wp_test_script_2ea26dd-30232309.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Using ${var} in strings is deprecated, use {$var} instead
+	FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php[46]
+	--- TRACE ---
+	FUNCTION: include                       FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler.php[122]
+	CLASS___: ActionScheduler::autoload     FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php[34]
+	CLASS___: ActionScheduler_DBStore->init FILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[334]
+	CLASS___: WP_Hook->do_action            FILE: /home/sickenin/sickeningevents/wp-includes/plugin.php[517]
+	FUNCTION: do_action                     FILE: /home/sickenin/sickeningevents/wp-settings.php[632]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-config.php[109]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-load.php[50]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /home/sickenin/sickeningevents/index.php[17]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-content/wp_test_script_2ea26dd-30232309.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Using ${var} in strings is deprecated, use {$var} instead
+	FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php[50]
+	--- TRACE ---
+	FUNCTION: include                       FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler.php[122]
+	CLASS___: ActionScheduler::autoload     FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php[34]
+	CLASS___: ActionScheduler_DBStore->init FILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[334]
+	CLASS___: WP_Hook->do_action            FILE: /home/sickenin/sickeningevents/wp-includes/plugin.php[517]
+	FUNCTION: do_action                     FILE: /home/sickenin/sickeningevents/wp-settings.php[632]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-config.php[109]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-load.php[50]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /home/sickenin/sickeningevents/index.php[17]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-content/wp_test_script_2ea26dd-30232309.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Using ${var} in strings is deprecated, use {$var} instead
+	FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php[52]
+	--- TRACE ---
+	FUNCTION: include                       FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler.php[122]
+	CLASS___: ActionScheduler::autoload     FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php[34]
+	CLASS___: ActionScheduler_DBStore->init FILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[334]
+	CLASS___: WP_Hook->do_action            FILE: /home/sickenin/sickeningevents/wp-includes/plugin.php[517]
+	FUNCTION: do_action                     FILE: /home/sickenin/sickeningevents/wp-settings.php[632]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-config.php[109]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-load.php[50]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /home/sickenin/sickeningevents/index.php[17]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-content/wp_test_script_2ea26dd-30232309.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Using ${var} in strings is deprecated, use {$var} instead
+	FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php[56]
+	--- TRACE ---
+	FUNCTION: include                       FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler.php[122]
+	CLASS___: ActionScheduler::autoload     FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php[34]
+	CLASS___: ActionScheduler_DBStore->init FILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[334]
+	CLASS___: WP_Hook->do_action            FILE: /home/sickenin/sickeningevents/wp-includes/plugin.php[517]
+	FUNCTION: do_action                     FILE: /home/sickenin/sickeningevents/wp-settings.php[632]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-config.php[109]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-load.php[50]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /home/sickenin/sickeningevents/index.php[17]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-content/wp_test_script_2ea26dd-30232309.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Using ${var} in strings is deprecated, use {$var} instead
+	FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php[72]
+	--- TRACE ---
+	FUNCTION: include                       FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler.php[122]
+	CLASS___: ActionScheduler::autoload     FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php[34]
+	CLASS___: ActionScheduler_DBStore->init FILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[334]
+	CLASS___: WP_Hook->do_action            FILE: /home/sickenin/sickeningevents/wp-includes/plugin.php[517]
+	FUNCTION: do_action                     FILE: /home/sickenin/sickeningevents/wp-settings.php[632]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-config.php[109]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-load.php[50]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /home/sickenin/sickeningevents/index.php[17]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-content/wp_test_script_2ea26dd-30232309.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Using ${var} in strings is deprecated, use {$var} instead
+	FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php[114]
+	--- TRACE ---
+	FUNCTION: include                       FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler.php[122]
+	CLASS___: ActionScheduler::autoload     FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php[34]
+	CLASS___: ActionScheduler_DBStore->init FILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[334]
+	CLASS___: WP_Hook->do_action            FILE: /home/sickenin/sickeningevents/wp-includes/plugin.php[517]
+	FUNCTION: do_action                     FILE: /home/sickenin/sickeningevents/wp-settings.php[632]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-config.php[109]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-load.php[50]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /home/sickenin/sickeningevents/index.php[17]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-content/wp_test_script_2ea26dd-30232309.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Using ${var} in strings is deprecated, use {$var} instead
+	FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php[118]
+	--- TRACE ---
+	FUNCTION: include                       FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler.php[122]
+	CLASS___: ActionScheduler::autoload     FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php[34]
+	CLASS___: ActionScheduler_DBStore->init FILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[334]
+	CLASS___: WP_Hook->do_action            FILE: /home/sickenin/sickeningevents/wp-includes/plugin.php[517]
+	FUNCTION: do_action                     FILE: /home/sickenin/sickeningevents/wp-settings.php[632]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-config.php[109]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-load.php[50]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /home/sickenin/sickeningevents/index.php[17]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-content/wp_test_script_2ea26dd-30232309.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Using ${var} in strings is deprecated, use {$var} instead
+	FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php[119]
+	--- TRACE ---
+	FUNCTION: include                       FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler.php[122]
+	CLASS___: ActionScheduler::autoload     FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php[34]
+	CLASS___: ActionScheduler_DBStore->init FILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[334]
+	CLASS___: WP_Hook->do_action            FILE: /home/sickenin/sickeningevents/wp-includes/plugin.php[517]
+	FUNCTION: do_action                     FILE: /home/sickenin/sickeningevents/wp-settings.php[632]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-config.php[109]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-load.php[50]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /home/sickenin/sickeningevents/index.php[17]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-content/wp_test_script_2ea26dd-30232309.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Using ${var} in strings is deprecated, use {$var} instead
+	FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php[120]
+	--- TRACE ---
+	FUNCTION: include                       FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler.php[122]
+	CLASS___: ActionScheduler::autoload     FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php[34]
+	CLASS___: ActionScheduler_DBStore->init FILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[334]
+	CLASS___: WP_Hook->do_action            FILE: /home/sickenin/sickeningevents/wp-includes/plugin.php[517]
+	FUNCTION: do_action                     FILE: /home/sickenin/sickeningevents/wp-settings.php[632]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-config.php[109]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-load.php[50]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /home/sickenin/sickeningevents/index.php[17]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-content/wp_test_script_2ea26dd-30232309.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Using ${var} in strings is deprecated, use {$var} instead
+	FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php[121]
+	--- TRACE ---
+	FUNCTION: include                       FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler.php[122]
+	CLASS___: ActionScheduler::autoload     FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php[34]
+	CLASS___: ActionScheduler_DBStore->init FILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[334]
+	CLASS___: WP_Hook->do_action            FILE: /home/sickenin/sickeningevents/wp-includes/plugin.php[517]
+	FUNCTION: do_action                     FILE: /home/sickenin/sickeningevents/wp-settings.php[632]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-config.php[109]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-load.php[50]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /home/sickenin/sickeningevents/index.php[17]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-content/wp_test_script_2ea26dd-30232309.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Using ${var} in strings is deprecated, use {$var} instead
+	FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php[122]
+	--- TRACE ---
+	FUNCTION: include                       FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler.php[122]
+	CLASS___: ActionScheduler::autoload     FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php[34]
+	CLASS___: ActionScheduler_DBStore->init FILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[334]
+	CLASS___: WP_Hook->do_action            FILE: /home/sickenin/sickeningevents/wp-includes/plugin.php[517]
+	FUNCTION: do_action                     FILE: /home/sickenin/sickeningevents/wp-settings.php[632]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-config.php[109]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-load.php[50]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /home/sickenin/sickeningevents/index.php[17]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-content/wp_test_script_2ea26dd-30232309.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Using ${var} in strings is deprecated, use {$var} instead
+	FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php[40]
+	--- TRACE ---
+	FUNCTION: include                       FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler.php[122]
+	CLASS___: ActionScheduler::autoload     FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php[106]
+	CLASS___: ActionScheduler_DBLogger->initFILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[334]
+	CLASS___: WP_Hook->do_action            FILE: /home/sickenin/sickeningevents/wp-includes/plugin.php[517]
+	FUNCTION: do_action                     FILE: /home/sickenin/sickeningevents/wp-settings.php[632]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-config.php[109]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-load.php[50]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /home/sickenin/sickeningevents/index.php[17]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-content/wp_test_script_2ea26dd-30232309.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Using ${var} in strings is deprecated, use {$var} instead
+	FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php[44]
+	--- TRACE ---
+	FUNCTION: include                       FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler.php[122]
+	CLASS___: ActionScheduler::autoload     FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php[106]
+	CLASS___: ActionScheduler_DBLogger->initFILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[334]
+	CLASS___: WP_Hook->do_action            FILE: /home/sickenin/sickeningevents/wp-includes/plugin.php[517]
+	FUNCTION: do_action                     FILE: /home/sickenin/sickeningevents/wp-settings.php[632]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-config.php[109]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-load.php[50]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /home/sickenin/sickeningevents/index.php[17]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-content/wp_test_script_2ea26dd-30232309.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Using ${var} in strings is deprecated, use {$var} instead
+	FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php[77]
+	--- TRACE ---
+	FUNCTION: include                       FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler.php[122]
+	CLASS___: ActionScheduler::autoload     FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php[106]
+	CLASS___: ActionScheduler_DBLogger->initFILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[334]
+	CLASS___: WP_Hook->do_action            FILE: /home/sickenin/sickeningevents/wp-includes/plugin.php[517]
+	FUNCTION: do_action                     FILE: /home/sickenin/sickeningevents/wp-settings.php[632]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-config.php[109]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-load.php[50]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /home/sickenin/sickeningevents/index.php[17]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-content/wp_test_script_2ea26dd-30232309.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Using ${var} in strings is deprecated, use {$var} instead
+	FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php[81]
+	--- TRACE ---
+	FUNCTION: include                       FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler.php[122]
+	CLASS___: ActionScheduler::autoload     FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php[106]
+	CLASS___: ActionScheduler_DBLogger->initFILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[334]
+	CLASS___: WP_Hook->do_action            FILE: /home/sickenin/sickeningevents/wp-includes/plugin.php[517]
+	FUNCTION: do_action                     FILE: /home/sickenin/sickeningevents/wp-settings.php[632]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-config.php[109]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-load.php[50]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /home/sickenin/sickeningevents/index.php[17]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-content/wp_test_script_2ea26dd-30232309.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Using ${var} in strings is deprecated, use {$var} instead
+	FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php[82]
+	--- TRACE ---
+	FUNCTION: include                       FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler.php[122]
+	CLASS___: ActionScheduler::autoload     FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php[106]
+	CLASS___: ActionScheduler_DBLogger->initFILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[334]
+	CLASS___: WP_Hook->do_action            FILE: /home/sickenin/sickeningevents/wp-includes/plugin.php[517]
+	FUNCTION: do_action                     FILE: /home/sickenin/sickeningevents/wp-settings.php[632]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-config.php[109]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-load.php[50]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /home/sickenin/sickeningevents/index.php[17]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-content/wp_test_script_2ea26dd-30232309.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Using ${var} in strings is deprecated, use {$var} instead
+	FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php[83]
+	--- TRACE ---
+	FUNCTION: include                       FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler.php[122]
+	CLASS___: ActionScheduler::autoload     FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php[106]
+	CLASS___: ActionScheduler_DBLogger->initFILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[334]
+	CLASS___: WP_Hook->do_action            FILE: /home/sickenin/sickeningevents/wp-includes/plugin.php[517]
+	FUNCTION: do_action                     FILE: /home/sickenin/sickeningevents/wp-settings.php[632]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-config.php[109]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-load.php[50]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /home/sickenin/sickeningevents/index.php[17]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-content/wp_test_script_2ea26dd-30232309.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+
+
+-----------------------
+[NOTICE] Warnings or notices on WordPress backend tests!
+	SECTIONS: general
+	LONG MSG: SCRIPT FILE TEST: /home/sickenin/sickeningevents//wp-login.php
+E_DEPRECATED strpos(): Passing null to parameter #1 ($haystack) of type string is deprecated
+	FILE: /home/sickenin/sickeningevents/wp-content/plugins/elementor-pro/modules/loop-builder/module.php[210]
+	--- TRACE ---
+	FUNCTION: strpos                        FILE: /home/sickenin/sickeningevents/wp-content/plugins/elementor-pro/modules/loop-builder/module.php[210]
+	CLASS___: ElementorPro\Modules\LoopBuilder\Module->is_editing_existing_loop_itemFILE: /home/sickenin/sickeningevents/wp-content/plugins/elementor-pro/modules/loop-builder/module.php[222]
+	CLASS___: ElementorPro\Modules\LoopBuilder\Module->is_loop_theme_builderFILE: /home/sickenin/sickeningevents/wp-content/plugins/elementor-pro/modules/loop-builder/module.php[60]
+	CLASS___: ElementorPro\Modules\LoopBuilder\Module->__constructFILE: /home/sickenin/sickeningevents/wp-content/plugins/elementor/core/base/module.php[85]
+	CLASS___: Elementor\Core\Base\Module::instanceFILE: /home/sickenin/sickeningevents/wp-content/plugins/elementor-pro/core/modules-manager.php[87]
+	CLASS___: ElementorPro\Core\Modules_Manager->__constructFILE: /home/sickenin/sickeningevents/wp-content/plugins/elementor-pro/plugin.php[363]
+	CLASS___: ElementorPro\Plugin->on_elementor_initFILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[310]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[334]
+	CLASS___: WP_Hook->do_action            FILE: /home/sickenin/sickeningevents/wp-includes/plugin.php[517]
+	FUNCTION: do_action                     FILE: /home/sickenin/sickeningevents/wp-content/plugins/elementor/includes/plugin.php[658]
+	CLASS___: Elementor\Plugin->init        FILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[310]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[334]
+	CLASS___: WP_Hook->do_action            FILE: /home/sickenin/sickeningevents/wp-includes/plugin.php[517]
+	FUNCTION: do_action                     FILE: /home/sickenin/sickeningevents/wp-settings.php[632]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-config.php[109]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-load.php[50]
+	FUNCTION: require                       FILE: /home/sickenin/sickeningevents/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-content/wp_test_script_2ea26dd-30232309.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Using ${var} in strings is deprecated, use {$var} instead
+	FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php[46]
+	--- TRACE ---
+	FUNCTION: include                       FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler.php[122]
+	CLASS___: ActionScheduler::autoload     FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php[34]
+	CLASS___: ActionScheduler_DBStore->init FILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[334]
+	CLASS___: WP_Hook->do_action            FILE: /home/sickenin/sickeningevents/wp-includes/plugin.php[517]
+	FUNCTION: do_action                     FILE: /home/sickenin/sickeningevents/wp-settings.php[632]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-config.php[109]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-load.php[50]
+	FUNCTION: require                       FILE: /home/sickenin/sickeningevents/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-content/wp_test_script_2ea26dd-30232309.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Using ${var} in strings is deprecated, use {$var} instead
+	FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php[50]
+	--- TRACE ---
+	FUNCTION: include                       FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler.php[122]
+	CLASS___: ActionScheduler::autoload     FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php[34]
+	CLASS___: ActionScheduler_DBStore->init FILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[334]
+	CLASS___: WP_Hook->do_action            FILE: /home/sickenin/sickeningevents/wp-includes/plugin.php[517]
+	FUNCTION: do_action                     FILE: /home/sickenin/sickeningevents/wp-settings.php[632]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-config.php[109]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-load.php[50]
+	FUNCTION: require                       FILE: /home/sickenin/sickeningevents/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-content/wp_test_script_2ea26dd-30232309.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Using ${var} in strings is deprecated, use {$var} instead
+	FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php[52]
+	--- TRACE ---
+	FUNCTION: include                       FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler.php[122]
+	CLASS___: ActionScheduler::autoload     FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php[34]
+	CLASS___: ActionScheduler_DBStore->init FILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[334]
+	CLASS___: WP_Hook->do_action            FILE: /home/sickenin/sickeningevents/wp-includes/plugin.php[517]
+	FUNCTION: do_action                     FILE: /home/sickenin/sickeningevents/wp-settings.php[632]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-config.php[109]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-load.php[50]
+	FUNCTION: require                       FILE: /home/sickenin/sickeningevents/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-content/wp_test_script_2ea26dd-30232309.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Using ${var} in strings is deprecated, use {$var} instead
+	FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php[56]
+	--- TRACE ---
+	FUNCTION: include                       FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler.php[122]
+	CLASS___: ActionScheduler::autoload     FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php[34]
+	CLASS___: ActionScheduler_DBStore->init FILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[334]
+	CLASS___: WP_Hook->do_action            FILE: /home/sickenin/sickeningevents/wp-includes/plugin.php[517]
+	FUNCTION: do_action                     FILE: /home/sickenin/sickeningevents/wp-settings.php[632]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-config.php[109]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-load.php[50]
+	FUNCTION: require                       FILE: /home/sickenin/sickeningevents/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-content/wp_test_script_2ea26dd-30232309.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Using ${var} in strings is deprecated, use {$var} instead
+	FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php[72]
+	--- TRACE ---
+	FUNCTION: include                       FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler.php[122]
+	CLASS___: ActionScheduler::autoload     FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php[34]
+	CLASS___: ActionScheduler_DBStore->init FILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[334]
+	CLASS___: WP_Hook->do_action            FILE: /home/sickenin/sickeningevents/wp-includes/plugin.php[517]
+	FUNCTION: do_action                     FILE: /home/sickenin/sickeningevents/wp-settings.php[632]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-config.php[109]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-load.php[50]
+	FUNCTION: require                       FILE: /home/sickenin/sickeningevents/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-content/wp_test_script_2ea26dd-30232309.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Using ${var} in strings is deprecated, use {$var} instead
+	FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php[114]
+	--- TRACE ---
+	FUNCTION: include                       FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler.php[122]
+	CLASS___: ActionScheduler::autoload     FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php[34]
+	CLASS___: ActionScheduler_DBStore->init FILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[334]
+	CLASS___: WP_Hook->do_action            FILE: /home/sickenin/sickeningevents/wp-includes/plugin.php[517]
+	FUNCTION: do_action                     FILE: /home/sickenin/sickeningevents/wp-settings.php[632]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-config.php[109]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-load.php[50]
+	FUNCTION: require                       FILE: /home/sickenin/sickeningevents/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-content/wp_test_script_2ea26dd-30232309.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Using ${var} in strings is deprecated, use {$var} instead
+	FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php[118]
+	--- TRACE ---
+	FUNCTION: include                       FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler.php[122]
+	CLASS___: ActionScheduler::autoload     FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php[34]
+	CLASS___: ActionScheduler_DBStore->init FILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[334]
+	CLASS___: WP_Hook->do_action            FILE: /home/sickenin/sickeningevents/wp-includes/plugin.php[517]
+	FUNCTION: do_action                     FILE: /home/sickenin/sickeningevents/wp-settings.php[632]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-config.php[109]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-load.php[50]
+	FUNCTION: require                       FILE: /home/sickenin/sickeningevents/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-content/wp_test_script_2ea26dd-30232309.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Using ${var} in strings is deprecated, use {$var} instead
+	FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php[119]
+	--- TRACE ---
+	FUNCTION: include                       FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler.php[122]
+	CLASS___: ActionScheduler::autoload     FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php[34]
+	CLASS___: ActionScheduler_DBStore->init FILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[334]
+	CLASS___: WP_Hook->do_action            FILE: /home/sickenin/sickeningevents/wp-includes/plugin.php[517]
+	FUNCTION: do_action                     FILE: /home/sickenin/sickeningevents/wp-settings.php[632]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-config.php[109]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-load.php[50]
+	FUNCTION: require                       FILE: /home/sickenin/sickeningevents/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-content/wp_test_script_2ea26dd-30232309.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Using ${var} in strings is deprecated, use {$var} instead
+	FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php[120]
+	--- TRACE ---
+	FUNCTION: include                       FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler.php[122]
+	CLASS___: ActionScheduler::autoload     FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php[34]
+	CLASS___: ActionScheduler_DBStore->init FILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[334]
+	CLASS___: WP_Hook->do_action            FILE: /home/sickenin/sickeningevents/wp-includes/plugin.php[517]
+	FUNCTION: do_action                     FILE: /home/sickenin/sickeningevents/wp-settings.php[632]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-config.php[109]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-load.php[50]
+	FUNCTION: require                       FILE: /home/sickenin/sickeningevents/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-content/wp_test_script_2ea26dd-30232309.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Using ${var} in strings is deprecated, use {$var} instead
+	FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php[121]
+	--- TRACE ---
+	FUNCTION: include                       FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler.php[122]
+	CLASS___: ActionScheduler::autoload     FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php[34]
+	CLASS___: ActionScheduler_DBStore->init FILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[334]
+	CLASS___: WP_Hook->do_action            FILE: /home/sickenin/sickeningevents/wp-includes/plugin.php[517]
+	FUNCTION: do_action                     FILE: /home/sickenin/sickeningevents/wp-settings.php[632]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-config.php[109]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-load.php[50]
+	FUNCTION: require                       FILE: /home/sickenin/sickeningevents/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-content/wp_test_script_2ea26dd-30232309.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Using ${var} in strings is deprecated, use {$var} instead
+	FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/schema/ActionScheduler_StoreSchema.php[122]
+	--- TRACE ---
+	FUNCTION: include                       FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler.php[122]
+	CLASS___: ActionScheduler::autoload     FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBStore.php[34]
+	CLASS___: ActionScheduler_DBStore->init FILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[334]
+	CLASS___: WP_Hook->do_action            FILE: /home/sickenin/sickeningevents/wp-includes/plugin.php[517]
+	FUNCTION: do_action                     FILE: /home/sickenin/sickeningevents/wp-settings.php[632]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-config.php[109]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-load.php[50]
+	FUNCTION: require                       FILE: /home/sickenin/sickeningevents/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-content/wp_test_script_2ea26dd-30232309.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Using ${var} in strings is deprecated, use {$var} instead
+	FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php[40]
+	--- TRACE ---
+	FUNCTION: include                       FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler.php[122]
+	CLASS___: ActionScheduler::autoload     FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php[106]
+	CLASS___: ActionScheduler_DBLogger->initFILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[334]
+	CLASS___: WP_Hook->do_action            FILE: /home/sickenin/sickeningevents/wp-includes/plugin.php[517]
+	FUNCTION: do_action                     FILE: /home/sickenin/sickeningevents/wp-settings.php[632]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-config.php[109]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-load.php[50]
+	FUNCTION: require                       FILE: /home/sickenin/sickeningevents/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-content/wp_test_script_2ea26dd-30232309.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Using ${var} in strings is deprecated, use {$var} instead
+	FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php[44]
+	--- TRACE ---
+	FUNCTION: include                       FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler.php[122]
+	CLASS___: ActionScheduler::autoload     FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php[106]
+	CLASS___: ActionScheduler_DBLogger->initFILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[334]
+	CLASS___: WP_Hook->do_action            FILE: /home/sickenin/sickeningevents/wp-includes/plugin.php[517]
+	FUNCTION: do_action                     FILE: /home/sickenin/sickeningevents/wp-settings.php[632]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-config.php[109]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-load.php[50]
+	FUNCTION: require                       FILE: /home/sickenin/sickeningevents/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-content/wp_test_script_2ea26dd-30232309.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Using ${var} in strings is deprecated, use {$var} instead
+	FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php[77]
+	--- TRACE ---
+	FUNCTION: include                       FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler.php[122]
+	CLASS___: ActionScheduler::autoload     FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php[106]
+	CLASS___: ActionScheduler_DBLogger->initFILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[334]
+	CLASS___: WP_Hook->do_action            FILE: /home/sickenin/sickeningevents/wp-includes/plugin.php[517]
+	FUNCTION: do_action                     FILE: /home/sickenin/sickeningevents/wp-settings.php[632]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-config.php[109]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-load.php[50]
+	FUNCTION: require                       FILE: /home/sickenin/sickeningevents/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-content/wp_test_script_2ea26dd-30232309.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Using ${var} in strings is deprecated, use {$var} instead
+	FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php[81]
+	--- TRACE ---
+	FUNCTION: include                       FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler.php[122]
+	CLASS___: ActionScheduler::autoload     FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php[106]
+	CLASS___: ActionScheduler_DBLogger->initFILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[334]
+	CLASS___: WP_Hook->do_action            FILE: /home/sickenin/sickeningevents/wp-includes/plugin.php[517]
+	FUNCTION: do_action                     FILE: /home/sickenin/sickeningevents/wp-settings.php[632]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-config.php[109]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-load.php[50]
+	FUNCTION: require                       FILE: /home/sickenin/sickeningevents/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-content/wp_test_script_2ea26dd-30232309.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Using ${var} in strings is deprecated, use {$var} instead
+	FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php[82]
+	--- TRACE ---
+	FUNCTION: include                       FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler.php[122]
+	CLASS___: ActionScheduler::autoload     FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php[106]
+	CLASS___: ActionScheduler_DBLogger->initFILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[334]
+	CLASS___: WP_Hook->do_action            FILE: /home/sickenin/sickeningevents/wp-includes/plugin.php[517]
+	FUNCTION: do_action                     FILE: /home/sickenin/sickeningevents/wp-settings.php[632]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-config.php[109]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-load.php[50]
+	FUNCTION: require                       FILE: /home/sickenin/sickeningevents/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-content/wp_test_script_2ea26dd-30232309.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Using ${var} in strings is deprecated, use {$var} instead
+	FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/schema/ActionScheduler_LoggerSchema.php[83]
+	--- TRACE ---
+	FUNCTION: include                       FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/abstracts/ActionScheduler.php[122]
+	CLASS___: ActionScheduler::autoload     FILE: /home/sickenin/sickeningevents/wp-content/plugins/wpforms/vendor/woocommerce/action-scheduler/classes/data-stores/ActionScheduler_DBLogger.php[106]
+	CLASS___: ActionScheduler_DBLogger->initFILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[308]
+	CLASS___: WP_Hook->apply_filters        FILE: /home/sickenin/sickeningevents/wp-includes/class-wp-hook.php[334]
+	CLASS___: WP_Hook->do_action            FILE: /home/sickenin/sickeningevents/wp-includes/plugin.php[517]
+	FUNCTION: do_action                     FILE: /home/sickenin/sickeningevents/wp-settings.php[632]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-config.php[109]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-load.php[50]
+	FUNCTION: require                       FILE: /home/sickenin/sickeningevents/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /home/sickenin/sickeningevents/wp-content/wp_test_script_2ea26dd-30232309.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+
+
+====================================
+LOG-TIME[/home/sickenin/sickeningevents/dup-installer/ctrls/ctrl.base.php:227][DELTA:   0.10479]  MESSAGE:END RENDER PAGE
